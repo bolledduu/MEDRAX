@@ -1,0 +1,20 @@
+[
+  {
+    "model": "openai/gpt-4o-mini",
+    "provider": "OpenRouter",
+    "relative_cost": 0.15,
+    "max_tokens": 16384
+  },
+  {
+    "model": "meta-llama/llama-3-70b-instruct",
+    "provider": "OpenRouter",
+    "relative_cost": 0.59,
+    "max_tokens": 8192
+  },
+  {
+    "model": "mistralai/mistral-7b-instruct",
+    "provider": "OpenRouter",
+    "relative_cost": 0.07,
+    "max_tokens": 8192
+  }
+]

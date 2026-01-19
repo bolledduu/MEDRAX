@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+temp_embeddings.json
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API keys (if stored locally)
+*_key.txt
+*_token.txt
+
+# Model cache
+.dspy_cache/
+*.pkl
+*.h5

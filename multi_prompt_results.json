@@ -1,0 +1,14 @@
+[
+  {
+    "prompt": "Summarize gravity",
+    "error": "OPENROUTER_API_KEY environment variable not set. Please set it before running."
+  },
+  {
+    "prompt": "Prove convergence of gradient descent",
+    "error": "OPENROUTER_API_KEY environment variable not set. Please set it before running."
+  },
+  {
+    "prompt": "Write a haiku about stars",
+    "error": "OPENROUTER_API_KEY environment variable not set. Please set it before running."
+  }
+]
