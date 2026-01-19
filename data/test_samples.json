@@ -1,0 +1,142 @@
+[
+  {
+    "context": "Patient: 24F, History of heart failure. Asymptomatic.",
+    "image_path": "/images/random_chest_xray_001.png",
+    "question": "Check the costophrenic angles for blunting.",
+    "gold_reasoning": "1. I need to check check the costophrenic angles for blunting.. 2. I will use the detection tool to look for pleural effusion. 3. The tool returned 'Costophrenic angles are sharp'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of pleural effusion."
+  },
+  {
+    "context": "Patient: 67M, History of diabetes. Shortness of breath.",
+    "image_path": "/images/random_chest_xray_002.png",
+    "question": "Check for opacities in the Left Upper Lobe.",
+    "gold_reasoning": "1. I need to check check for opacities in the left upper lobe.. 2. I will use the detection tool to look for opacity. 3. The tool returned 'No opacities detected in Left Upper Lobe'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of consolidation in the Left Upper Lobe."
+  },
+  {
+    "context": "Patient: 63F, Asthma. Persistent cough.",
+    "image_path": "/images/random_chest_xray_003.png",
+    "question": "Is there a nodule in the Right Middle Lobe?",
+    "gold_reasoning": "1. I need to check is there a nodule in the right middle lobe. 2. I will use the detection tool to look for nodule. 3. The tool returned 'No nodules detected'. 4. This finding rules out the condition.",
+    "answer": "No, there are no pulmonary nodules detected."
+  },
+  {
+    "context": "Patient: 56M, History of COPD. Hemoptysis.",
+    "image_path": "/images/random_chest_xray_004.png",
+    "question": "Are the cardiac contours normal?",
+    "gold_reasoning": "1. I need to check are the cardiac contours normal. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.55 (Normal is <0.5)'. 4. This finding supports the diagnosis.",
+    "answer": "No, the cardiac contours are enlarged indicating cardiomegaly."
+  },
+  {
+    "context": "Patient: 48M, Routine checkup. Persistent cough.",
+    "image_path": "/images/random_chest_xray_005.png",
+    "question": "Is there a nodule in the Right Lower Lobe?",
+    "gold_reasoning": "1. I need to check is there a nodule in the right lower lobe. 2. I will use the detection tool to look for nodule. 3. The tool returned 'Nodule detected in Right Lower Lobe'. 4. This finding supports the diagnosis.",
+    "answer": "Yes, a pulmonary nodule is observed in the Right Lower Lobe."
+  },
+  {
+    "context": "Patient: 67F, History of diabetes. Persistent cough.",
+    "image_path": "/images/random_chest_xray_006.png",
+    "question": "Check for opacities in the Right Upper Lobe.",
+    "gold_reasoning": "1. I need to check check for opacities in the right upper lobe.. 2. I will use the detection tool to look for opacity. 3. The tool returned 'No opacities detected in Right Upper Lobe'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of consolidation in the Right Upper Lobe."
+  },
+  {
+    "context": "Patient: 26M, Recent chest trauma. Asymptomatic.",
+    "image_path": "/images/random_chest_xray_007.png",
+    "question": "Assess the heart size.",
+    "gold_reasoning": "1. I need to check assess the heart size.. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.45 (Normal is <0.5)'. 4. This finding rules out the condition.",
+    "answer": "Yes, the cardiac contours are normal with a normal cardiothoracic ratio."
+  },
+  {
+    "context": "Patient: 81M, Recent chest trauma. Fever and chills.",
+    "image_path": "/images/random_chest_xray_008.png",
+    "question": "Is there a nodule in the Right Middle Lobe?",
+    "gold_reasoning": "1. I need to check is there a nodule in the right middle lobe. 2. I will use the detection tool to look for nodule. 3. The tool returned 'Nodule detected in Right Middle Lobe'. 4. This finding supports the diagnosis.",
+    "answer": "Yes, a pulmonary nodule is observed in the Right Middle Lobe."
+  },
+  {
+    "context": "Patient: 24M, History of COPD. Presenting with cough.",
+    "image_path": "/images/random_chest_xray_009.png",
+    "question": "Is there a nodule in the Right Lower Lobe?",
+    "gold_reasoning": "1. I need to check is there a nodule in the right lower lobe. 2. I will use the detection tool to look for nodule. 3. The tool returned 'No nodules detected'. 4. This finding rules out the condition.",
+    "answer": "No, there are no pulmonary nodules detected."
+  },
+  {
+    "context": "Patient: 59M, No significant history. Asymptomatic.",
+    "image_path": "/images/random_chest_xray_010.png",
+    "question": "Are the cardiac contours normal?",
+    "gold_reasoning": "1. I need to check are the cardiac contours normal. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.55 (Normal is <0.5)'. 4. This finding supports the diagnosis.",
+    "answer": "No, the cardiac contours are enlarged indicating cardiomegaly."
+  },
+  {
+    "context": "Patient: 37F, History of COPD. Hemoptysis.",
+    "image_path": "/images/random_chest_xray_011.png",
+    "question": "Are the cardiac contours normal?",
+    "gold_reasoning": "1. I need to check are the cardiac contours normal. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.45 (Normal is <0.5)'. 4. This finding rules out the condition.",
+    "answer": "Yes, the cardiac contours are normal with a normal cardiothoracic ratio."
+  },
+  {
+    "context": "Patient: 88F, No significant history. Fever and chills.",
+    "image_path": "/images/random_chest_xray_012.png",
+    "question": "Is there pleural effusion?",
+    "gold_reasoning": "1. I need to check is there pleural effusion. 2. I will use the detection tool to look for pleural effusion. 3. The tool returned 'Costophrenic angles are sharp'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of pleural effusion."
+  },
+  {
+    "context": "Patient: 68M, No significant history. Chest pain.",
+    "image_path": "/images/random_chest_xray_013.png",
+    "question": "Check for opacities in the Left Upper Lobe.",
+    "gold_reasoning": "1. I need to check check for opacities in the left upper lobe.. 2. I will use the detection tool to look for opacity. 3. The tool returned 'No opacities detected in Left Upper Lobe'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of consolidation in the Left Upper Lobe."
+  },
+  {
+    "context": "Patient: 41F, Asthma. Dyspnea on exertion.",
+    "image_path": "/images/random_chest_xray_014.png",
+    "question": "Is there a nodule in the Right Middle Lobe?",
+    "gold_reasoning": "1. I need to check is there a nodule in the right middle lobe. 2. I will use the detection tool to look for nodule. 3. The tool returned 'Nodule detected in Right Middle Lobe'. 4. This finding supports the diagnosis.",
+    "answer": "Yes, a pulmonary nodule is observed in the Right Middle Lobe."
+  },
+  {
+    "context": "Patient: 64M, Pre-op evaluation. Asymptomatic.",
+    "image_path": "/images/random_chest_xray_015.png",
+    "question": "Is there pleural effusion?",
+    "gold_reasoning": "1. I need to check is there pleural effusion. 2. I will use the detection tool to look for pleural effusion. 3. The tool returned 'Costophrenic angles are sharp'. 4. This finding rules out the condition.",
+    "answer": "No, there is no evidence of pleural effusion."
+  },
+  {
+    "context": "Patient: 84M, History of COPD. Fever and chills.",
+    "image_path": "/images/random_chest_xray_016.png",
+    "question": "Is there evidence of cardiomegaly?",
+    "gold_reasoning": "1. I need to check is there evidence of cardiomegaly. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.55 (Normal is <0.5)'. 4. This finding supports the diagnosis.",
+    "answer": "No, the cardiac contours are enlarged indicating cardiomegaly."
+  },
+  {
+    "context": "Patient: 49M, Routine checkup. Shortness of breath.",
+    "image_path": "/images/random_chest_xray_017.png",
+    "question": "Are the cardiac contours normal?",
+    "gold_reasoning": "1. I need to check are the cardiac contours normal. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.55 (Normal is <0.5)'. 4. This finding supports the diagnosis.",
+    "answer": "No, the cardiac contours are enlarged indicating cardiomegaly."
+  },
+  {
+    "context": "Patient: 59M, History of smoking. Hemoptysis.",
+    "image_path": "/images/random_chest_xray_018.png",
+    "question": "Are the cardiac contours normal?",
+    "gold_reasoning": "1. I need to check are the cardiac contours normal. 2. I will use the segmentation tool to measure the Cardiothoracic Ratio (CTR). 3. The tool returned 'CTR is 0.55 (Normal is <0.5)'. 4. This finding supports the diagnosis.",
+    "answer": "No, the cardiac contours are enlarged indicating cardiomegaly."
+  },
+  {
+    "context": "Patient: 69M, Asthma. Hemoptysis.",
+    "image_path": "/images/random_chest_xray_019.png",
+    "question": "Are there any pulmonary nodules?",
+    "gold_reasoning": "1. I need to check are there any pulmonary nodules. 2. I will use the detection tool to look for nodule. 3. The tool returned 'No nodules detected'. 4. This finding rules out the condition.",
+    "answer": "No, there are no pulmonary nodules detected."
+  },
+  {
+    "context": "Patient: 59F, History of heart failure. Presenting with cough.",
+    "image_path": "/images/random_chest_xray_020.png",
+    "question": "Is there fluid in the pleural space?",
+    "gold_reasoning": "1. I need to check is there fluid in the pleural space. 2. I will use the detection tool to look for pleural effusion. 3. The tool returned 'Blunting of costophrenic angle detected'. 4. This finding supports the diagnosis.",
+    "answer": "Yes, there is evidence of pleural effusion."
+  }
+]
