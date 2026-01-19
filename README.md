@@ -94,15 +94,6 @@ The router uses:
 - **70% weight** on semantic similarity (embedding-based)
 - **30% weight** on cost optimization
 
-This ensures good quality while keeping costs low.
-
-## Verification Results
-
-✅ Routing decisions differ across prompts  
-✅ No hardcoded model selection  
-✅ Code is modular and reusable  
-⚠️ OpenRouter API key required (set OPENROUTER_API_KEY)
-
 ## Next Steps
 
 1. Set your OpenRouter API key
